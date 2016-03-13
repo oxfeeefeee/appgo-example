@@ -1,0 +1,5 @@
+devmode: true
+loglevel: 4
+negroni:
+  port: ":3000"
+  
