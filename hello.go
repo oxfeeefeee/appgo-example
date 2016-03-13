@@ -30,5 +30,5 @@ type helloInput struct {
 //       value to the API caller.
 
 func (h Hello) GET(in *helloInput) (string, *appgo.ApiError) {
-	return "Hello " + in.UserId__.String() + ",  " + in.Echo, nil //appgo.NewApiErrWithCode(1000)
+	return "Hello " + in.UserId__.String() + ", " + in.Echo, nil //appgo.NewApiErrWithCode(1000)
 }

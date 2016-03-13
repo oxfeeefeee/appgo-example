@@ -1,5 +1,13 @@
 devmode: true
 loglevel: 5
+rootkey: "abc123"
 negroni:
   port: ":3000"
-  
+
+weixin:
+  appid: "abc"
+  secret: "efg"
+weibo:
+  appid: "abc"
+  secret: "efg"
+  redirecturl: "url???"
